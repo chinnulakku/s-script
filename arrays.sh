@@ -13,3 +13,7 @@ echo " Fourth color: ${COLORS[3]}"
 echo " Fifth color: ${COLORS[4]}"
 
 echo "All Colors: ${COLORS[@]}"
+
+echo " All Colors: ${COLORS[#]}"
+
+echo " Colors: $N{0}"
