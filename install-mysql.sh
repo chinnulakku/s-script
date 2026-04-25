@@ -22,7 +22,7 @@ fi
 
 yum install git -y
 
-if [ $ID -ne 0]
+if [ $ID -ne 0 ]
 then 
     echo "ERROR:: Installing GIT is failed"
     exit 1
