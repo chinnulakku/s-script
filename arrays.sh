@@ -2,7 +2,7 @@
 
 COLORS=("Red" "Green" "Maroon" "Blue" "Orange")
 
-echo "\e[31m First color: ${COLORS[0]}"
+echo "First color: ${COLORS[0]}"
 
 echo " Second color: ${COLORS[1]}"
 
