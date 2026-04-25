@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COLORS=("Red" "Green" "Maroon" "Blue" "Orange")
+COLORS=("Red=\e[31m" "Green" "Maroon" "Blue" "Orange")
 
 echo " First color: ${COLORS[0]}"
 
