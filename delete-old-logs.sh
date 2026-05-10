@@ -9,7 +9,7 @@ N="\e[0m"
 
 if [ ! -d $SOURCE_DIR ] # ! denotes opposite
 then
-    eho -e "$R Source direcctory: $SOURCE_DIR does not exists.
+    eho -e "$R Source direcctory: $SOURCE_DIR does not exists $N"
 fi
 
 FILES_TO_DELETE=(find $SOURCE_DIR -type f -mtime +14 -name "*.log")
